@@ -342,6 +342,7 @@ export const THEMES: Theme[] = [
   { id: "github-dark", label: "GitHub Dark", color: "#0d1117" },
   { id: "monokai", label: "Monokai", color: "#272822" },
   { id: "solarized-dark", label: "Solarized Dark", color: "#002b36" },
+  { id: "night-owl", label: "Night Owl", color: "#011627" }, 
 ];
 
 export const THEME_DEFINITONS = {
@@ -457,3 +458,4 @@ export const defineMonacoThemes = (monaco: Monaco) => {
     });
   });
 };
+
